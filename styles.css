@@ -30,7 +30,8 @@ ul.sidenav {
 }
 
 .news,
-.contact {
+.contact,
+.about {
   margin-top: 70px;
   height: min-content;
   display: block;
@@ -74,7 +75,8 @@ main {
   }
 
   .content,
-  .news {
+  .news,
+  .about {
     margin-top: 130px;
     display: grid;
     grid-template-columns: 1fr;
@@ -152,4 +154,13 @@ article {
   text-shadow: 3px 3px 3px black;
   float: right;
   margin-bottom: 10px;
+}
+
+.icon {
+  width: 30px;
+  text-decoration: none;
+}
+
+.contact_list {
+  list-style: none;
 }
