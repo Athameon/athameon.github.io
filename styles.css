@@ -29,6 +29,12 @@ ul.sidenav {
   grid-auto-rows: 500px;
 }
 
+.news {
+  margin-top: 70px;
+  height: min-content;
+  display: block;
+}
+
 ul.sidenav li a {
   display: block;
   color: #000;
@@ -65,7 +71,8 @@ main {
   .title {
     margin-top: 50px;
   }
-  .content {
+
+  .news {
     margin-top: 130px;
     display: grid;
     grid-template-columns: 1fr;
@@ -143,9 +150,4 @@ article {
   text-shadow: 3px 3px 3px black;
   float: right;
   margin-bottom: 10px;
-}
-
-.news {
-  margin-top: 70px;
-  display: block;
 }
