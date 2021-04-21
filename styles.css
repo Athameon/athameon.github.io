@@ -29,7 +29,8 @@ ul.sidenav {
   grid-auto-rows: 500px;
 }
 
-.news {
+.news,
+.contact {
   margin-top: 70px;
   height: min-content;
   display: block;
@@ -72,6 +73,7 @@ main {
     margin-top: 50px;
   }
 
+  .content,
   .news {
     margin-top: 130px;
     display: grid;
