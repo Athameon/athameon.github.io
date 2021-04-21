@@ -144,3 +144,8 @@ article {
   float: right;
   margin-bottom: 10px;
 }
+
+.news {
+  margin-top: 70px;
+  display: block;
+}
